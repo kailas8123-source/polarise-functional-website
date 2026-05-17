@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Donate - Polarise</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body data-page="donate">
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span>Polarise</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="../index.html">Home</a><a href="our-story.html">Our Story</a><a href="explore.html">Explore</a><a href="journal.html">Journal</a><a href="support.html">Support</a><a class="donate-link" href="donate.html" aria-current="page">Donate Now</a>
+      </nav>
+      <button class="tab js-menu" type="button">Menu</button>
+    </header>
+    <main>
+      <section class="page-hero">
+        <span class="eyebrow">Donate</span>
+        <h1>They have tomorrow. If we act today.</h1>
+        <p class="lead">Your gift helps fund habitat grants, field monitoring tools, public education, and community-led conflict prevention.</p>
+      </section>
+
+      <section class="section split">
+        <div>
+          <h2>Choose An Amount</h2>
+          <p>Use the quick buttons or enter a custom amount. This is a local demo checkout with dynamic confirmation, ready to connect to a payment provider later.</p>
+          <div class="amounts">
+            <button class="amount active" type="button" data-amount="25">$25</button>
+            <button class="amount" type="button" data-amount="50">$50</button>
+            <button class="amount" type="button" data-amount="100">$100</button>
+            <button class="amount" type="button" data-amount="250">$250</button>
+          </div>
+        </div>
+        <form class="form" data-success="Thank you. Your demo donation was recorded locally.">
+          <label>Donation amount <input type="number" name="amount" value="25" min="1" required></label>
+          <label>Email receipt <input type="email" name="email" placeholder="you@example.com" required></label>
+          <label>Dedication note <textarea name="note" placeholder="In honor of..."></textarea></label>
+          <button class="btn primary" type="submit">Complete Demo Donation</button>
+        </form>
+      </section>
+
+      <section class="section band">
+        <h2>Where Gifts Go</h2>
+        <div class="grid">
+          <article class="card"><strong>45% Habitat Protection</strong><p>Denning corridors, seasonal mapping, and local monitoring support.</p></article>
+          <article class="card"><strong>35% Research And Tools</strong><p>Field kits, tracking data, and safety resources for partner teams.</p></article>
+          <article class="card"><strong>20% Education</strong><p>Public explainers, classroom packs, and action campaigns.</p></article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">Thank you for standing with Arctic wildlife.</footer>
+  </div>
+  <div class="drawer" id="drawer" hidden><div class="drawer-panel"><button class="drawer-close js-menu-close" type="button">x</button><a href="../index.html">Home</a><a href="our-story.html">Our Story</a><a href="explore.html">Explore</a><a href="journal.html">Journal</a><a href="support.html">Support</a><a href="donate.html">Donate Now</a></div></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="../scripts.js"></script>
+</body>
+</html>

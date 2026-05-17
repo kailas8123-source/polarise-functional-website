@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explore - Polarise</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body data-page="explore">
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span>Polarise</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="../index.html">Home</a><a href="our-story.html">Our Story</a><a href="explore.html" aria-current="page">Explore</a><a href="journal.html">Journal</a><a href="support.html">Support</a><a class="donate-link" href="donate.html">Donate Now</a>
+      </nav>
+      <button class="tab js-menu" type="button">Menu</button>
+    </header>
+    <main>
+      <section class="page-hero">
+        <span class="eyebrow">Explore</span>
+        <h1>Aurora, sea ice, and the routes bears remember.</h1>
+        <p class="lead">Move through the living Arctic by habitat, wildlife, and sky. The scene below keeps the ice moving while the Aurora pulses overhead.</p>
+      </section>
+
+      <section class="section split">
+        <div class="scene">
+          <div class="aurora"></div><div class="mountains"></div>
+          <span class="ice one"></span><span class="ice two"></span><span class="ice three"></span><span class="walking-bear"></span>
+        </div>
+        <div data-tabs>
+          <h2>Aurora Sections</h2>
+          <div class="tabs" role="tablist">
+            <button class="tab active" data-target="habitat" type="button">Habitat</button>
+            <button class="tab" data-target="wildlife" type="button">Wildlife</button>
+            <button class="tab" data-target="aurora" type="button">Aurora</button>
+          </div>
+          <div class="panel active" id="habitat"><p>Sea ice is a moving platform, nursery, and hunting ground. Polarise highlights corridors where bears travel between denning, resting, and feeding areas.</p></div>
+          <div class="panel" id="wildlife"><p>Polar bears share the ice with seals, seabirds, foxes, and marine mammals. Conservation works best when the whole system is protected.</p></div>
+          <div class="panel" id="aurora"><p>The Aurora section tracks the emotional heart of the site: light in a fragile place, always shifting, always worth protecting.</p></div>
+        </div>
+      </section>
+
+      <section class="section band" id="gallery">
+        <h2>The Arctic In Moments</h2>
+        <div class="grid">
+          <article class="card"><strong>Denning Snow</strong><p>Quiet shelter where cubs begin their first season.</p></article>
+          <article class="card"><strong>Blue Ice</strong><p>Pressure ridges and floes shaped by wind and tide.</p></article>
+          <article class="card"><strong>Walking Light</strong><p>Low sun, long shadows, and the patient movement of bears.</p></article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">Explore the Arctic, then choose one action to protect it.</footer>
+  </div>
+  <div class="drawer" id="drawer" hidden><div class="drawer-panel"><button class="drawer-close js-menu-close" type="button">x</button><a href="../index.html">Home</a><a href="our-story.html">Our Story</a><a href="explore.html">Explore</a><a href="journal.html">Journal</a><a href="support.html">Support</a><a href="donate.html">Donate Now</a></div></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="../scripts.js"></script>
+</body>
+</html>
